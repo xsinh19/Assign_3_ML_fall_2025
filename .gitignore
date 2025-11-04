@@ -1,17 +1,18 @@
-# Ignore virtual environments
+# Python and venv
 .venv*
-venv/
 __pycache__/
 *.pyc
-*.pyo
 
-# Ignore system or IDE files
-.DS_Store
-.vscode/
-*.log
-
-# Ignore large files
+# Large model files
 *.zip
 *.h5
-*.pt
 *.pkl
+*.pt
+*.pth
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS / IDE files
+.DS_Store
+.vscode/
