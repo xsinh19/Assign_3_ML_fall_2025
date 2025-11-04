@@ -1,0 +1,17 @@
+# Ignore virtual environments
+.venv*
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore system or IDE files
+.DS_Store
+.vscode/
+*.log
+
+# Ignore large files
+*.zip
+*.h5
+*.pt
+*.pkl
